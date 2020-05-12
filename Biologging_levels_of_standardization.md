@@ -1,8 +1,6 @@
 Biologging levels of standardization
 ================
 
-html\_document: df\_print: paged
-
 ``` r
 library(sp)
 library(tidyverse)
@@ -13,7 +11,7 @@ library(foieGras)
 ```
 
 The data used here are a published set of … from DataOne at DOI:
-xxx
+https://doi.org/10.24431/rw1k329
 
 ## Level 1 -\> 2
 
