@@ -7,8 +7,12 @@ Name of specific tag model deployed
 string, eg. “Mk10”
 
 ## Similar Terms 
-* Movebank - "Tag Model" - http://vocab.nerc.ac.uk/collection/MVB/current/MVB000185/
-* Tagbase - "Model" - https://github.com/tagbase/tagbase/blob/master/eTagMetadataInventory.csv#L6
+|Term|Definition URL|Source Vocabulary Publisher/Creator|
+|----|----------|-----------------|
+|Tag Model|http://vocab.nerc.ac.uk/collection/MVB/current/MVB000185/|Movebank|
+|Model|https://github.com/tagbase/tagbase/blob/master/eTagMetadataInventory.csv#L6|Tagbase|
+|Model Name|http://vocab.nerc.ac.uk/collection/W07/current/IDEN0003/|NERC/Sensor Web Enablement Marine Profiles|
+|Model Number|http://vocab.nerc.ac.uk/collection/W07/current/IDEN0004/|NERC/Sensor Web Enablement Marine Profiles|
 
 ## SensorML example
 ```
