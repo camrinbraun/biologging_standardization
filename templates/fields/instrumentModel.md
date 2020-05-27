@@ -15,11 +15,11 @@ string, eg. “Mk10”
 |Model Number|http://vocab.nerc.ac.uk/collection/W07/current/IDEN0004/|NERC/Sensor Web Enablement Marine Profiles|
 
 ## SensorML example
-```
+```xml
 <sml:identification>
         <sml:IdentifierList>
             <sml:identifier>
-                <sml:Term definition="http://urlToDefinitionOf/instrumentModel"">
+                <sml:Term definition="http://urlToDefinitionOf/instrumentModel">
                     <sml:label>Instrument Model</sml:label>
                     <sml:value>Mk10</sml:value>
                 </sml:Term>
@@ -28,7 +28,7 @@ string, eg. “Mk10”
  </sml:identification>"
   ```
 ## Darwin Core example
-```
+```csv
 # measurementOrFact.csv
 eventId, measurementType, measurementTypeID, measurementValue
 institutionId:tagDeployment:XYZ, "instrumentModel", "http://urlToDefinitionOf/InstrumentModel", "Mk10"
