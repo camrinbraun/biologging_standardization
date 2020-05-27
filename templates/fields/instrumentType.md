@@ -12,13 +12,13 @@ Similar controlled vocabularies: ? (Movebank, eTuff)
 * TagBase - "instrument_type" - https://github.com/tagbase/tagbase/blob/master/eTagMetadataInventory.csv#L3
 
 ## SensorML example
-```
+```xml
 <sml:classification>
         <sml:ClassifierList>
             <sml:classifier>
                 <sml:Term definition="http://urlToDefinitionOf/InstrumentType">
                     <sml:label>Instrument Type</sml:label>
-                    <sml:codeSpace xlink:href=""urn:x-ceos:def:GCMD:sensors""/>
+                    <sml:codeSpace xlink:href="urn:x-ceos:def:GCMD:sensors">
                     <sml:value>satellite</sml:value>
                 </sml:Term>
             </sml:classifier>
